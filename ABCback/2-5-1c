@@ -1,0 +1,10 @@
+2 5 1 <- activations per layer
+0 <- how weights will be populated; 0: rand, 1: load, 2: hardcode
+ABCback Weights
+true <- true: training, false: running
+4 <- number of test cases
+2-B-1ixor
+2-B-1oxor
+-1.5 1.5 0.3 2E-4 100000 <- randMin, randMax, lambda, error threshold, iterations
+false <- save or not
+ABCWeights1
