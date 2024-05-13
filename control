@@ -1,0 +1,12 @@
+5
+54600 10 20 10 5 <- activations per layer
+1 <- how weights will be populated; 0: rand, 1: load, 2: hardcode
+PrayWeightsv5
+true <- true: training, false: running
+25 <- number of test cases
+PrayHands
+fingers
+-1.5 1.5 100 0.000001 10000 <- randMin, randMax, lambda, error threshold, iterations
+true <- true: save, false: not
+PrayWeightsv6
+100 <- keepAlive: 0 (none), or any other preferred positive integer
